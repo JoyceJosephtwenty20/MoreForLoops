@@ -6,22 +6,22 @@ public class MoreForLops {
         Scanner input = new Scanner(System.in);
         /// even and odd numbers
         // First Loop - Even Numbers
+
+        //  first Loop - Odd Numbers
+        System.out.println("\nOdd Numbers:");
+        for (int x = 1; x <= 20; x = x + 1) {
+            if (x % 2 == 0) {
+            } else {
+                System.out.print(" " + x);
+            }
+        }
         System.out.println("\nEven Numbers:");
         for (int x = 1; x <= 20; x = x + 1) {
             if (x % 2 == 0) {
                 System.out.print(" " + x);
             }
         }
-        //  Second Loop - Odd Numbers
-        System.out.println("\nOdd Numbers:");
-        for (int x = 1; x <= 20; x = x + 1) {
-            if (x % 2 == 0) {
-
-            } else {
-                System.out.print(" " + x);
-            }
-        }
-        // Second Loop END - END OF EVEN ODD Number loop
+        // Second loop END - END OF EVEN ODD Number loop
         // Below String Reverse
         System.out.println("\nPlease input a message to reverse: ");
         String origString = input.nextLine();
